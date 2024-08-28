@@ -1,0 +1,5 @@
+address: http://examle.url:9090
+timezone: CET
+query: raritan_pdu_activeenergy_watthour_total{inletid=~".+", poleline=""}
+step: 1m
+lookback: 3
